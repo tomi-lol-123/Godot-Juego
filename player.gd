@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-const SPEED = 100.0
+const SPEED = 101.0
 const ACCELERATION = 10000000.0
 const FRICTION = 600.0
 const JUMP_VELOCITY = -300.0
@@ -17,7 +17,7 @@ func _physics_process(delta):
 
 	
 		
-		
+	#comentario prueba
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var direction = Input.get_axis("ui_left", "ui_right")
